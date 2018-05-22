@@ -1,0 +1,27 @@
+Q1
+
+select
+	MinTemperatureF
+from
+	weather
+where 
+	zip = 94301 AND
+	events LIKE 'rain'
+
+Q2
+select
+	*
+from
+	stations
+where
+	station_id = 84
+
+Q3
+SELECT
+    trip_id,
+    duration
+FROM
+    trips
+WHERE
+    duration > 500
+ORDER BY duration DESC
